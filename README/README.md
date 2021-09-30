@@ -8,6 +8,17 @@ These files have been tested and used to generate a live ELK deployment on Azure
 
   - _TODO: Enter the playbook file._
 
+  [filebeat-configuration.yml](filebeat-configuration.yml)
+
+ [filebeat-playbook.yml](filebeat-playbook.yml)
+
+ [metricbeat-configuration.yml](metricbeat-configuration.yml)
+
+ [metricbeat-playbook.yml](metricbeat-playbook.yml)
+
+ [install-elk.yml](install-elk.yml)
+
+
 This document contains the following details:
 - Description of the Topologu
 - Access Policies
