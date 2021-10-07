@@ -122,10 +122,12 @@ In order to use the playbook, you will need to have an Ansible control node alre
 
 
 
-![login to kabana](image/login_kabana.png)
+
 
 ![output filebeat-playbook](image/filebeat-playbook.png)
 
 ![output install-elk](image/install-elk.png)
 
 ![output metricbeat-playbook](image/metricbeat-playbook.png)
+
+![login to kabana](image/login_kabana.png)
