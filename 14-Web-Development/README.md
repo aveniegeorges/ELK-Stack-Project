@@ -333,7 +333,7 @@ Create two new users: Amanda and Ryan.
     - Role: `Editor`
 
 
-![add users](Images\add-users.png)
+![add users](Images/add-users.png)
 7. Log out and log in with the following credentials:
 
     - Username: `Amanda`
@@ -349,7 +349,7 @@ For these "baselining" steps, you'll want to log into two different types of acc
 
 3. Attempt to navigate to `localhost:8080/wp-admin/users.php`. Note what you see now.
 
-![cheatin](Images\cheatin.png)
+![cheatin](Images/cheatin.png)
 Log out in the browser.
 
 #### Step 3: Using Forms and a Cookie Jar
@@ -364,7 +364,7 @@ Navigate to `~/Documents` in a terminal to save your cookies.
 
 2. Construct the same `curl` request, but this time add the option and path to save your cookie: `--cookie-jar ./ryancookies.txt`. This option tells `curl` to save the cookies to the `ryancookies.txt` text file.
 
-![cookies jar](Images\cookiesjar.png)
+![cookies jar](Images/cookiesjar.png)
 
 3. Read the contents of the `ryancookies.txt` file.
 
@@ -384,12 +384,12 @@ Note that each one of these is a cookie that was granted to Ryan after logging i
 
     - **Question:**  Look through the output where `Dashboard` is highlighted. Does any of the wording on this page seem familiar? (Y/N) If so, you should be successfully logged in to your Editor's dashboard.
 
-![dashboard](Images\Dashboard.png)
+![dashboard](Images/Dashboard.png)
 #### Step 5: Test the Users.php Page
 
 1. Finally, write a `curl` command using the same `--cookie ryancookies.txt` option, but attempt to access `http://localhost:8080/wp-admin/users.php`.
 
-![nologin](Images\nologin.png)
+![nologin](Images/nologin.png)
 
     - **Question:** What happens this time?
 
