@@ -77,12 +77,17 @@ The reconnaissance phase of a penetration test is possibly the most important ph
 
 65.61.137.64 - 65.61.137.127
 
+![chief](images/ip.png)
+
   3. What is the company they use to store their infrastructure? 
 
 Rackspace Backbone Engineering
 
   4. What is the IP address of the DNS server? 
 
+65.61.137.117
+
+![chief](images/dns.png)
 #### Step 3: Shodan
 
 Using Shodan and the information gathered from Google Dorking, find any other useful information that can be used in an attack.
@@ -93,6 +98,11 @@ Using Shodan and the information gathered from Google Dorking, find any other us
 
   - What open ports and running services did Shodan find? 
 
+https://www.shodan.io/host/65.61.137.117
+
+80 , 443 and 8080
+
+![chief](images/open.png)
 #### Step 4: Recon-ng
 
 Altoro Mutual is also concerned about cross-site scripting attacks, which can cause havoc on their website. Verify whether or not Altoro Mutual is vulnerable to XSS by completing the following:
@@ -101,7 +111,22 @@ Altoro Mutual is also concerned about cross-site scripting attacks, which can ca
 - Set the source to `demo.testfire.net`. 
 - Run the module. 
 
+ recon-ng
+      marketplace search xssed
+      marcketplace install xssed
+      modules load recon/domains-vulnerableilities/xssed
+      options set SOURCE demo.testfire.net
+      info
+      run
+
+![chief](images/noinstal.png)
+![chief](images/install.png)
+![chief](images/last.png)
+
 Is Altoro Mutual vulnerable to XSS?
+yes
+
+![chief](images/vul.png)
 
 ### Step 5: Zenmap
 
