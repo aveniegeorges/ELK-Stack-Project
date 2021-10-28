@@ -134,6 +134,8 @@ Your client has asked that you help identify any vulnerabilities with their file
 
 - Use Zenmap to run a service scan against the Metasploitable machine. 
   
+  ![chief](images/zen.png)
+
   - **Bonus:** In the same command, output the results into a new text file named `zenmapscan.txt`. 
 
     
