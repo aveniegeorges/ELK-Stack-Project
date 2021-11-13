@@ -91,11 +91,21 @@ Submit a screen shot of your report and the answer to the questions above.
 1. Upload the following file from the Nessus vulnerability scan.
    - [Nessus Scan Results](resources/nessus_logs.csv)
 
+   ![upload](images/11.png)
+
 2. Create a report that shows the `count` of critical vulnerabilities from the customer database server.
    - The database server IP is `10.11.36.23`.
    - The field that identifies the level of vulnerabilities is `severity`.
       
+![upload](images/12.png)
+
+
 3. Build an alert that monitors every day to see if this server has any critical vulnerabilities. If a vulnerability exists, have an alert emailed to `soc@vandalay.com`.
+
+![upload](images/13.png)
+![upload](images/14.png)
+![upload](images/15.png)
+
 
 Submit a screenshot of your report and a screenshot of proof that the alert has been created.
 
@@ -110,15 +120,24 @@ Submit a screenshot of your report and a screenshot of proof that the alert has 
 1. Upload the administrator login logs.
    - [Admin Logins](resources/Administrator_logs.csv)
 
+![upload](images/20.png)
+
 2. When did the brute force attack occur?
    - Hints:
      - Look for the `name` field to find failed logins.
      - Note the attack lasted several hours.
 
+           between 9Am - 1Pm on february 2021
       
+![upload](images/21.png)
+
 3. Determine a baseline of normal activity and a threshold that would alert if a brute force attack is occurring.
 
+![upload](images/22.png)
+
 4. Design an alert to check the threshold every hour and email the SOC team at SOC@vandalay.com if triggered. 
+
+![upload](images/23.png)
 
 Submit the answers to the questions about the brute force timing, baseline and threshold. Additionally, provide a screenshot as proof that the alert has been created.
  
