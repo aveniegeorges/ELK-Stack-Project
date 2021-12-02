@@ -18,14 +18,15 @@ Me and My Team start by understanding the fundamentals of digital forensics and 
 
 We will have had hands-on experience in implementing all the pillars of digital forensics—acquisition, extraction, analysis, and presentation using Kali Linux, and Autopzy tools.
 
-Instructions and Navigation 
-please open MY Digital Forensics Folder
+    Instructions and Navigation 
 
+
+please open Forensics Folder
 inside this folder, you will find,
 
-Excel spread sheet evidence folder.
-
-GEO location.
-Image Evidence.
-IPHONE DETAILS.
-Forensics 21.3 the Final Report.
+    Excel spread sheet evidence folder.
+    GEO location.
+    Image Evidence.
+    IPHONE DETAILS.
+    Forensics 21.3 the Final Report.
+    
