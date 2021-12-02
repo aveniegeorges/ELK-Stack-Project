@@ -1,10 +1,12 @@
 This is the code repository for Digital Forensics with Kali Linux, published by
 
-Cameo Reindl.
-Mary Yang.
-Phillip Snell.
-Abdisalan Firin.
-Georges Avenie.
+        Cameo Reindl.
+        Mary Yang.
+        Phillip Snell.
+        Abdisalan Firin.
+        Georges Avenie.
+
+        
 It contains all the supporting project files necessary to work through the Case Report
 
 About the Case Report
